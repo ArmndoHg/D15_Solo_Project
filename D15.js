@@ -85,16 +85,19 @@ console.log(randomArray);
 
 console.log();
 
-console.log("\n------------------------ EXERCISE 29 ------------------------");
-console.log();
-console.log("\n------------------------ EXERCISE 30 ------------------------");
-console.log();
 
-
-onsole.log("\n------------------------ EXERCISE 31 ------------------------");
+console.log("\n------------------------ EXERCISE 31 ------------------------");
 
 const getContainer = document.getElementById("container");
 
-onsole.log("\n------------------------ EXERCISE 32 ------------------------");
+console.log("\n------------------------ EXERCISE 32 ------------------------");
 
 const getTd = document.querySelectorAll("td");
+
+console.log("\n------------------------ EXERCISE 33 ------------------------");
+
+for (let i = 0; i < getId.length; i++) {
+  const tdElement = getId[i].innerText;
+  console.log(tdElement)
+}
+
